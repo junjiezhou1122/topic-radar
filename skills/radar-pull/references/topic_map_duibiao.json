@@ -1,0 +1,30 @@
+{
+  "_note": "对标账号作品的默认主题映射。按账号设置；当标题/摘要含特定关键词时可叠加额外主题。",
+  "_fields": {
+    "account_topic": "账号级默认主题",
+    "title_keywords": {
+      "keyword": ["可能的 主题 Topic 数组（叠加在 account_topic 之后）"]
+    }
+  },
+  "account_topics": {
+    "何同学": ["Video"],
+    "影视飓风": ["Video"],
+    "张咋啦": ["AI Coding", "出海"],
+    "直男山禾": ["AI 工具", "出海"],
+    "AI超元域": ["AI Coding", "Agent"],
+    "卡尔的AI沃茨": ["AI Coding", "Agent"],
+    "数字生命卡兹克": ["AI Coding"],
+    "秋芝2046": ["AI Coding", "AI 工具"],
+    "Xuan酱": ["AI Video", "AI 工具"],
+    "木子不写代码": ["AI Coding"],
+    "神烦老狗": ["AI 工具"]
+  },
+  "title_keyword_overrides": [
+    {"kw": ["claude code", "codex", "cursor", "trae", "vibe coding", "mcp", "agent", "skill"], "add": ["AI Coding"]},
+    {"kw": ["教程", "入门", "安装", "配置", "零基础"], "add": ["AI 工具"]},
+    {"kw": ["测评", "对比", "实测", "评测"], "add": ["Models"]},
+    {"kw": ["视频生成", "sora", "runway", "veo", "seedance", "minimax"], "add": ["AI Video"]},
+    {"kw": ["3d", "游戏", "塔防", "对战"], "add": ["3D"]},
+    {"kw": ["computer use", "浏览器", "桌面", "openclaw", "warp"], "add": ["Computer Use"]}
+  ]
+}

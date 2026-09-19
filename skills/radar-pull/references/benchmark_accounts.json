@@ -1,0 +1,95 @@
+[
+  {
+    "name": "何同学",
+    "platforms": {
+      "B站": {"type": "uid", "id": "163637592"}
+    },
+    "default_topic": ["Video"],
+    "note": "非AI账号（科技/叙事标杆），仅作制作参考"
+  },
+  {
+    "name": "影视飓风",
+    "platforms": {
+      "B站": {"type": "uid", "id": "946974"}
+    },
+    "default_topic": ["Video"],
+    "note": "非AI账号（制作与工作流标杆），仅作制作参考"
+  },
+  {
+    "name": "张咋啦",
+    "platforms": {
+      "小红书": {"type": "user_id", "id": "59757acd50c4b45e6e9a90df"},
+      "X": {"type": "handle", "id": ""},
+      "YouTube": {"type": "channel_id", "id": ""}
+    },
+    "default_topic": ["AI Coding", "出海"],
+    "note": "英文平台更活跃；X/YouTube handle 待补"
+  },
+  {
+    "name": "直男山禾",
+    "platforms": {
+      "小红书": {"type": "user_id", "id": "61fd5b82000000001000aa1d"}
+    },
+    "default_topic": ["AI 工具", "出海"],
+    "note": "AI工具+出海教程"
+  },
+  {
+    "name": "AI超元域",
+    "platforms": {
+      "B站": {"type": "uid", "id": "3493277319825652"}
+    },
+    "default_topic": ["AI Coding", "Agent"],
+    "note": "AI开源项目作者，Agent/工具实测"
+  },
+  {
+    "name": "卡尔的AI沃茨",
+    "platforms": {
+      "微信公众号": {"type": "username", "id": "gh_1421d5e48ca9", "biz": "3873797637"}
+    },
+    "default_topic": ["AI 新闻", "AI Coding"],
+    "note": "公众号长文AI测评"
+  },
+  {
+    "name": "数字生命卡兹克",
+    "platforms": {
+      "微信公众号": {"type": "username", "id": "gh_94dba26f8ca0"}
+    },
+    "default_topic": ["AI 新闻"],
+    "note": "公众号深度分析"
+  },
+  {
+    "name": "秋芝2046",
+    "platforms": {
+      "小红书": {"type": "user_id", "id": "63b622ab00000000260066bd"},
+      "B站": {"type": "uid", "id": "385670211"}
+    },
+    "default_topic": ["AI Coding", "AI 工具"],
+    "note": "AI编程工具全网最全教程"
+  },
+  {
+    "name": "Xuan酱",
+    "platforms": {
+      "小红书": {"type": "user_id", "id": "583ab2525e87e729b60e3564"},
+      "B站": {"type": "uid", "id": "14848367"}
+    },
+    "default_topic": ["AI Video", "AI 工具"],
+    "note": "AI视觉创作（生图/视频/绘画）"
+  },
+  {
+    "name": "木子不写代码",
+    "platforms": {
+      "小红书": {"type": "user_id", "id": "62972c5f00000000210299fd"},
+      "B站": {"type": "uid", "id": "13416784"}
+    },
+    "default_topic": ["AI Coding"],
+    "note": "零基础AI工具终极教程"
+  },
+  {
+    "name": "神烦老狗",
+    "platforms": {
+      "B站": {"type": "uid", "id": "46377861"}
+    },
+    "default_topic": ["AI 新闻"],
+    "note": "B站AI资讯+工具实测"
+  }
+]

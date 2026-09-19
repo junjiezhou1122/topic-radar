@@ -1,0 +1,41 @@
+# Topic 映射规则（聚合用）
+# 格式: keyword1|keyword2|... → TopicName
+# 注意: 目标 Topic 必须在 Base 「主题 Topic」字段的 20 个选项内：
+#   Computer Use / AI Coding / Agent / MCP / AI Video / 3D / Models /
+#   AI Tools / AI 编程 / AI 工具 / AI 新闻 / Coding / Video / Research /
+#   Productivity / Creator Tool / Trending / Open Source / Developer Tool / 出海
+# 不存在的聚合名（如 AI Workflow / RAG / Hardware / Voice / Training / Skills）
+# 不直接做聚合；映射到最接近的合法选项（如 Productivity / Research / Developer Tool）。
+
+computer use → Computer Use
+mcp → MCP
+claude code|claude → AI Coding
+cursor → AI Coding
+codex → AI Coding
+copilot → AI Coding
+windsurf → AI Coding
+cline → AI Coding
+ai ide → AI Coding
+ai coding|ai 编程|ai编程 → AI Coding
+agent → Agent
+openclaw → Agent
+ai automation|agentic → Agent
+ai video|sora|veo|kling → AI Video
+3d → 3D
+gpt|deepseek|gemini|openai|anthropic|llm|大模型|豆包 → Models
+ai tool|ai app|ai工具|ai 工具|效率工具 → AI Tools
+ai workflow|prompt engineering|n8n|zapier|make → Productivity
+rag|vector|embedding|retrieval → Research
+hardware|chip|gpu|apple silicon|nvidia|jetson → Developer Tool
+voice|whisper|tts|speech|elevenlabs → AI 工具
+training|fine.tune|rlhf|蒸馏|dpo|qlora → Research
+open source|github|开源 → Open Source
+claude code|skills|hooks → AI Coding
+coding → Coding
+video → Video
+creator|创作|creator tool → Creator Tool
+research|paper|论文 → Research
+出海|overseas|海外 → 出海
+trending|hot|热门|升温 → Trending
+productivity|workflow → Productivity
+developer|dev tool → Developer Tool

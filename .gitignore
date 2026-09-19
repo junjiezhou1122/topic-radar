@@ -1,0 +1,7 @@
+state/
+logs/
+__pycache__/
+*.pyc
+.env
+.env.*
+skills/*/.env
